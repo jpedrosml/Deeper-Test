@@ -72,7 +72,15 @@ cd Deeper-Test
 ```
 cd backend
 ```
-While there, and considering you have required dependencies ready to go, you simply run:
+
+Both commands below are indispensable, so make sure to install them before the next steps:
+```
+pip install pymongo
+```
+```
+pip install flask-cors
+```
+While in the backend folder, and considering you have required dependencies ready to go, you simply run:
 
 ```
 python main.py
@@ -89,11 +97,13 @@ cd ..
 ```
 cd frontend
 ```
-This will take you to the front end folder. If Vue.js isn't already installed, type the following command in your terminal:
+
+This will take you to the front end folder. Remember, Node.js **must** be in your system to run the pieces of code in this section. If Vue.js isn't already installed, type the following command in your terminal:
 
 ```
 npm install -g @vue/cli (or yarn global add @vue/cli)
 ```
+
 Other dependencies, if needed, shall be installed by:
 
 ```
@@ -106,6 +116,6 @@ npm run dev (or npm run serve)
 Navigate to http://localhost:3000, where the frontend will be running.
 
 
-That's pretty much it.
+That's pretty much it. The table might have a substantial delay to appear, as well as the user page.
 
 
